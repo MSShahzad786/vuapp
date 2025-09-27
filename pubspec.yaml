@@ -1,0 +1,45 @@
+name: vu_mcqs_app
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^16.2.1
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.1
+  cloud_firestore: ^6.0.0
+  google_sign_in: ^7.2.0
+  connectivity_plus: ^7.0.0
+  google_fonts: ^6.1.0
+  provider: ^6.1.2
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  flutter_svg: ^2.0.10
+  flutter_math_fork: ^0.7.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  json_annotation: ^4.9.0
+  build_runner: ^2.4.9
+  flutter_launcher_icons: ^0.14.4
+   
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/logo/
+  - assets/bottomTab/
+  - assets/subIcons/
+
+flutter_icons:
+  android: true
+  image_path: "assets/logo/main_logo.png"
+  adaptive_icon_background: "assets/logo/background.png"
+  adaptive_icon_foreground: "assets/logo/forground.png"
